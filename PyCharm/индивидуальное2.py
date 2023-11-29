@@ -4,7 +4,7 @@
 import sys
 
 if __name__ == '__main__':
-        lst = [-5, 3, -2, 7, -8, 10, -4]
+        lst = [int(i) for i in input("Введите данные").split()]
         # количество отрицательных элементов списка
         negative_count = len(list(filter(lambda x: x < 0, lst)))
 
